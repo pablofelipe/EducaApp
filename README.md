@@ -71,7 +71,7 @@ GET
 
 **Mapeamento de jogos utilizados por alunos**
 
-http://localhost:8080/api/users/1/games/1
+http://{IP}/api/users/1/games/1
 POST
 
 ```
