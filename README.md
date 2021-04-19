@@ -7,29 +7,33 @@ Plataforma de jogos educacionais com base em gamificação focado em alunos de 5
 ## Exemplos de endpoints:
 
 **Cadastro de escolas**
-
-http://{IP}/api/schools
-POST
+```
+POST http://{IP}/api/schools
+```
+```
 {
     "id": 1,
     "name": "Fiap",
     "country": "Brazil"
 }
-
+```
 **Obtenção de todas as escolas cadastradas**
 
-http://{IP}/api/schools
-GET
+```
+GET http://{IP}/api/schools
+```
+
 
 **Obtenção de escola por ID**
-
-http://{IP}/api/schools/{id}
-GET
+```
+GET http://{IP}/api/schools/{id}
+```
 
 **Cadastro de alunos**
-
-http://{IP}/api/users
-POST
+```
+POST http://{IP}/api/users
+```
+```
 {
     "id": 1,
     "name": "Pablo",
@@ -38,40 +42,41 @@ POST
         "id" : 1
     }
 }
-
+```
 **Obtenção de todos os alunos cadastrados**
+```
+GET http://{IP}/api/users
+```
 
-http://{IP}/api/users
-GET
 
 **Obtenção de aluno por ID**
-
-http://{IP}/api/users/{id}
-GET
+```
+GET http://{IP}/api/users/{id}
+```
 
 **Cadastro de jogos**
-
-http://{IP}/api/games
-POST
+```
+POST http://{IP}/api/games
+```
+```
 {
     "id": 1,
     "name": "Some mysterious shadows",
     "developer": "pffelipe"
 }
-
+```
 **Obtenção de todos os jogos cadastrados**
-
-http://{IP}/api/games
-GET
+```
+GET http://{IP}/api/games
+```
 
 **Obtenção de jogo  por ID**
-
-http://{IP}/api/games/{id}
-GET
+```
+GET http://{IP}/api/games/{id}
+```
 
 **Mapeamento de jogos utilizados por alunos**
 
-http://{IP}/api/users/1/games/1
-POST
-
+```
+POST http://{IP}/api/users/1/games/1
 ```
